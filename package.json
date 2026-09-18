@@ -1,0 +1,15 @@
+{
+  "name": "collab-whiteboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "在线协作白板 - 一键启动/检查脚本（仅聚合入口，不安装任何依赖）",
+  "scripts": {
+    "dev": "bash scripts/dev.sh up",
+    "start": "bash scripts/dev.sh up",
+    "check": "bash scripts/dev.sh check",
+    "status": "bash scripts/dev.sh status",
+    "stop": "bash scripts/dev.sh stop",
+    "restart": "bash scripts/dev.sh restart",
+    "logs": "bash scripts/dev.sh logs"
+  }
+}

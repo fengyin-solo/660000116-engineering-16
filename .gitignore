@@ -14,3 +14,6 @@ vendor/bundle/
 dist/
 target/
 .gradle/
+
+# 统一启动脚本的 pid 与日志
+.dev/
