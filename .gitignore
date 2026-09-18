@@ -14,3 +14,6 @@ vendor/bundle/
 dist/
 target/
 .gradle/
+
+# 本地统一启动脚本的运行时产物（pid/日志）
+.dev/

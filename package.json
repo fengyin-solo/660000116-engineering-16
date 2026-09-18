@@ -1,0 +1,14 @@
+{
+  "name": "collab-whiteboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "在线协作白板 - 本地统一启动入口（server + client）",
+  "scripts": {
+    "dev": "node scripts/dev-launcher.js up",
+    "dev:bg": "node scripts/dev-launcher.js up --detach",
+    "dev:stop": "node scripts/dev-launcher.js stop",
+    "dev:status": "node scripts/dev-launcher.js status",
+    "dev:restart": "node scripts/dev-launcher.js restart",
+    "dev:logs": "node scripts/dev-launcher.js logs"
+  }
+}
